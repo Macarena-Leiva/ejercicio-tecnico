@@ -107,7 +107,6 @@ select{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
 
     label{
@@ -117,7 +116,6 @@ select{
 
     form{
         width: 290px;
-       
     }
 
     .formContainer{
@@ -129,7 +127,6 @@ select{
         margin-top: 100px;
         margin-left: 0;
         margin-right: 0;
-        
     }
 
     .data{
@@ -139,11 +136,11 @@ select{
     .textEdit{
         padding-left: 8px;
         padding-right: 8px;
-      }
+    }
     
-      .boxForm{
+    .boxForm{
         width: 290px;
-      }
+    }
 
   
 }
