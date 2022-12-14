@@ -1,0 +1,275 @@
+main{
+    background-color: #030d29;
+    width: 100%;
+    height: 37vh;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 7%;
+    margin-right: 12%;
+
+    
+}
+
+.imgPreview{
+    margin-top: 100px;
+    padding-left: 22%;
+    
+}
+
+
+.box1{
+    width: 500px;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.boxName{
+    height: 60px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.p2{
+    font-size: 12px;
+    padding: 8px 0 8px 0;
+    color: rgba(255, 255, 255, 0.944);
+}
+
+.p3{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box2{
+    background-color: #2765b7;
+    border-radius: 5px;
+    width: 250px;
+    height: 90px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p4{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    width: 50px;
+}
+
+.p5{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.858);
+}
+
+.textPoints{
+    margin-top: 0;
+}
+
+.textPoint2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.p6{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.944);
+    margin-top: 10px;
+}
+
+.imgGift{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.box3{
+    background-color: white;
+    z-index: 1;
+   
+    width: 500px;
+    height: 100px;
+    
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.license1{
+    color: #2765b7;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.license2{
+    color:#030d29;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 0px 6px 0px;
+}
+
+
+/* btn animacion */
+
+.license3 {
+    color: #2765b7;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    transition: all .2s;
+    cursor: pointer;
+    width: fit-content;
+   }
+   
+
+/* animacion de flecha */
+
+.imgArrow{
+    width: 20px;
+    height: 20px;
+}
+.license3 > .imgArrow {
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+
+.license3:hover .imgArrow {
+    transform: translateX(5px);
+  }
+
+.license3:active {
+    transform: scale(0.95);
+  }
+
+/* ----------------fin animación-------------------- */
+
+.imgNet{
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+}
+
+
+
+.btnUpload{
+ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+
+}   
+
+.imgProfile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.imgProfile:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+
+/* media queries */
+
+@media (max-width: 980px){
+
+    .box3{
+        width: 290px;
+    }
+
+    .box1{
+        width: 290px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .container2{
+        width: 290px;
+        margin-left: 36%;
+        margin-right: 12%;
+
+    }
+
+    .box2{
+        width: 150px;
+        padding: 10px;
+    }
+
+    .imgPreview{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container2{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+}
+
+
+
+  
+ 
+
+

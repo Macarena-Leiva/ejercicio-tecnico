@@ -1,0 +1,40 @@
+.containerError{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pError{
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pError2{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.volver{
+    color: rgb(0, 174, 255);
+}
+
+.volver:hover{
+    border-bottom: 2px solid rgb(0, 102, 255);
+    color:rgb(0, 102, 255);
+}
+
+@media (max-width:580px){
+    .pError{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pError2{
+        font-size: 14px;
+    }
+
+    .error{
+        width: 200px;
+    }
+}
